@@ -1,0 +1,68 @@
+# This file contains rules for instantiating composite named entities
+# (i.e., persons, companies and company relocations) from previously
+# identified basic named entities such as person names, places or dates.
+# Use this file only with NEEX 2.1 (Actions -> Prepare Data Set -> Replace 
+# Named Entities 2.1). Each line contains DIAsDEM-specific rule that 
+# matches sequences of tokens and basic named entities as well as the 
+# corrersponding composite named entity constructor separated by exactly 
+# one tab stop. The syntax of this file is explained in the tutorial 
+# 'Getting Started with DIAsDEM Workbench 2.1: A Case-Based Approach'. For
+# example, all syntax elements of composite named entity constructors must 
+# be separated from each other by blank spaces. There are three composite 
+# named entity constructors:
+#
+# company( Name , Place , Street, DistrictCourt , CommercialRegisterID )
+# person( Name , Surname , Forename , Title , MiddleInitial , DoB , MothersName , Place , Street , Occupation)
+# company_relocation( Name , OriginPlace , OriginStreet , OriginDistrictCourt , OriginCommercialRegisterID , DestinationPlace , DestinationStreet , DestinationDistrictCourt , DestinationCommercialRegisterID )
+# date_period( PeriodBeginDate , PeriodEndDate )
+# amount_of_money_range( MinimumAmountOfMoney , MaximumAmountOfMoney )
+# percentage_range( MinimumPercentage , MaximumPercentage )
+# equity_stake( CompanyName , NumberOfShares , PercentageOfShares )
+# key_figure( Name , Value )
+# unit_of_company( NameOfUnit , PlaceOfUnitHeadquarter , StreetOfUnitHeadquarter , DistrictCourtOfUnit , CommercialRegisterIDOfUnit , NameOfParent , PlaceOfParentHeadquarter , StreetOfParentHeadquarter , DistrictCourtOfParent , CommercialRegisterIDOfParent )
+#
+<<organization>>	company( 0 , null , null , null , null )
+<<organization>> <<place>>	company( 0 " " 1 , 1 , null , null , null )
+<<organization>> ( <<organization>> )	company( 0 , null , null , null , 2 )
+<<organization>> ( <<wkn>> )	company( 0 , null , null , null , 2 )
+<<organization>> , <<place>>	company( 0 , 2 , null , null , null )
+<<organization>> ( <<place>>	company( 0 , 2 , null , null , null )
+<<organization>> aus <<place>>	company( 0 , 2 , null , null , null )
+<<organization>> in <<place>>	company( 0 , 2 , null , null , null )
+<<organization>> in <<place>> ( <<organization_id>> )	company( 0 , 2 , null , null , 4 )
+<<organization>> in <<place>> ( <<wkn>> )	company( 0 , 2 , null , null , 4 )
+<<organization>> mit Sitz in <<place>>	company( 0 , 4 , null , null , null )
+<<organization>> mit Sitz in <<place>> ( <<organization_id>> )	company( 0 , 4 , null , null , 6 )
+<<organization>> mit Sitz in <<place>> ( <<wkn>> )	company( 0 , 4 , null , null , 6 )
+<<organization>> , Sitz <<place>>	company( 0 , 3 , null , null , null )
+<<organization>> , Sitz <<place>> ( <<organization_id>> )	company( 0 , 3 , null , null , 5 )
+<<organization>> , Sitz <<place>> ( <<wkn>> )	company( 0 , 3 , null , null , 5 )
+<<organization>> , Sitz , <<place>>	company( 0 , 4 , null , null , null )
+<<organization>> , Sitz , <<place>> ( <<organization_id>> )	company( 0 , 4 , null , null , 6 )
+<<organization>> , Sitz , <<place>> ( <<wkn>> )	company( 0 , 4 , null , null , 6 )
+<<organization>> , Sitz : <<place>>	company( 0 , 4 , null , null , null )
+<<organization>> , Sitz : <<place>> ( <<organization_id>> )	company( 0 , 4 , null , null , 6 )
+<<organization>> , Sitz : <<place>> ( <<wkn>> )	company( 0 , 4 , null , null , 6 )
+<<organization>> Sitz , <<place>>	company( 0 , 3 , null , null , null )
+<<organization>> Sitz , <<place>> ( <<organization_id>> )	company( 0 , 3 , null , null , 5 )
+<<organization>> Sitz , <<place>> ( <<wkn>> )	company( 0 , 3 , null , null , 5 )
+<<organization>> Sitz : <<place>>	company( 0 , 3 , null , null , null )
+<<organization>> Sitz : <<place>> ( <<organization_id>> )	company( 0 , 3 , null , null , 5 )
+<<organization>> Sitz : <<place>> ( <<wkn>> )	company( 0 , 3 , null , null , 5 )
+#
+von <<place>> nach <<place>>	company_relocation( null , 1 , null , null , null , 3 , null , null , null )
+#
+<<person_name>>	person( 0 , null , null , null , null , null , null , null , null , null )
+<<person_name>> , <<date>>	person( 0 , null , null , null , null , 2 , null , null , null , null )
+<<person_name>> , geb. am <<date>>	person( 0 , null , null , null , null , 4 , null , null , null , null )
+<<person_name>> , geb. <<date>>	person( 0 , null , null , null , null , 3 , null , null , null , null )
+<<person_name>> , <<place>>	person( 0 , null , null , null , null , null , null , 2 , null , null )
+<<person_name>> in <<place>>	person( 0 , null , null , null , null , null , null , 2 , null , null )
+<<person_name>> , <<date>> , <<place>>	person( 0 , null , null , null , null , 2 , null , 4 , null , null )
+<<person_name>> , geb. <<date>> , <<place>>	person( 0 , null , null , null , null , 3 , null , 5 , null , null )
+<<person_name>> geb. <<date>> , <<place>>	person( 0 , null , null , null , null , 2 , null , 4 , null , null )
+<<person_name>> , geb. am <<date>> , <<place>>	person( 0 , null , null , null , null , 4 , null , 6 , null , null )
+<<person_name>> geb. am <<date>> , <<place>>	person( 0 , null , null , null , null , 3 , null , 5 , null , null )
+<<person_name>> , geboren am <<date>> , <<place>>	person( 0 , null , null , null , null , 4 , null , 6 , null , null )
+<<person_name>> geb. <<person_name>>	person( 0 , null , null , null , null , null , 2 , null , null , null )
+<<person_name>> geb. <<person_name>> , <<date>> , <<place>>	person( 0 , null , null , null , null , 4 , 2 , 6 , null , null )

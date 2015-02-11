@@ -1,0 +1,6 @@
+# This file contains regular expressions for tokenizing texts. Each line 
+# contains one java.util.regex.Pattern regular expression that matches 
+# characters to be separated from letters as well as the corresponding
+# replacement string separated by exactly one tab stop. 
+(\S)(\.|\!|\?|\(|\)|\{|\}|\[|\]|\-|"|'|`|'|:|;|,|\+|\/|\\)	$1\ $2
+(\.|\!|\?|\(|\)|\{|\}|\[|\]|\-|"|'|`|'|:|;|,|\+|\/|\\)(\S)	$1\ $2

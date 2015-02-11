@@ -1,0 +1,9 @@
+# This file contains tokens that sould be replaced by other tokens. For
+# example, composite nouns (e.g., Gewinnanstieg) could be split (e.g.,
+# Gewinn Anstieg) or English clitics (e.g., wont and ' ll) can be expanded
+# (e.g., will not and will). Each line contains single- or multi-token
+# terms to be searched for and the corresponding replacement tokens.
+# Search and replacement tokens are separated by exactly one tab stop.
+Gewinnanstieg	Gewinn Anstieg
+Ge - winnanstieg	Gewinn Anstieg
+Ge - winn	Gewinn

@@ -1,0 +1,45 @@
+# This file contains frequent organization suffixes for usage with NEEX 
+# 2.0 (Actions -> Prepare Data Set -> Replace Named Entities 2.0) only. 
+# NEEX 2.0 can only process single-token organization suffixes which do 
+# not contain blank spaces. Organization suffixes are processed case-
+# sensitively. Hence, the second suffix 'KG' will not match the term 'kg'.
+# Note, the first term 'GmbH_&_Co._KG' is a multi-token term whose real
+# counterpart 'GmbH & Co. KG' is listed in the file ${PARAMETER_DIRECTORY}
+# /tokenizeTextUnits/de/neex20/MultiTokenWordsDE.txt. All suffixes of 
+# organizations containing full stops such as 'e.Kfr.' must be listed in
+# the file ${PARAMETER_DIRECTORY}/createTextUnits/de/AbbreviationsDE.txt
+# to ensure correct sentence splits.
+GmbH_&_Co._KG
+KG
+e.K.
+e.Kfm
+KGaA
+mbH
+CO
+e.Kfr.
+AG.
+oHG
+e.Kfm.
+Co
+Inc.
+oHG.
+eV
+Ltd.
+AG
+aA
+e.G.
+KG.
+GmbH
+OHG
+PLC
+e.V.
+GmbH.
+OHG.
+eG
+SA
+Co.
+GbR
+e.K
+e.Kfr
+S.A.
+mbH.

@@ -1,0 +1,28 @@
+# This file contains frequently occuring suffixes of street names for usage
+# with NEEX 2.1 (Actions -> Prepare Data Set -> Replace Named Entities 2.1)
+# only. Capitalized tokens are assumed to be a street name candidate, if they
+# end with or solely consist of a suffix listed in this file. Street name
+# suffixes are not processed case-sensitively. Hence, the suffix 'straﬂe'
+# will also match the street 'MUSTERSTRAﬂE' and 'Straﬂe'. Street name
+# suffixes should be ordered by their decreasing frequency for performance
+# reasons.
+straﬂe
+str.
+platz
+ring
+weg
+allee
+passage
+strasse
+chaussee
+prommenade
+gasse
+wall
+damm
+pfad
+graben
+stieg
+steig
+g‰sschen
+gaesschen
+strasze

@@ -1,0 +1,24 @@
+# This file contains frequently occuring street names that do not end with a
+# typical street name suffix for usage with NEEX 2.1 (Actions -> Prepare Data
+# Set -> Replace Named Entities 2.1) only. NEEX 2.1 can process both single-
+# (e.g., 'Bohnenberg') and multi-token street names containing for example
+# blank spaces (e.g., 'Im Grund'). Street names listed in this file are
+# processed case-sensitively. Hence, the street name 'Bohnenberg' will not
+# match the term 'bohnenberg'. Street names containing special characters
+# such as '/' or '-' must be entered in their tokenized form. To that end,
+# the DIAsDEM task Actions -> Miscellaneous -> Tokenize Parameter Text File
+# might be employed. Note, this list should be extended for real-world
+# applications.
+Bohnenberg
+Im Grund
+Sandbühl
+Sonnhalde
+Im Bohl
+Im Durgle
+Im Hirtenstall
+Im Kellersgarten
+Zur Gerbe
+Auf dem Ösch
+Im Aachtal
+Am Kirchberg
+Im Jagen

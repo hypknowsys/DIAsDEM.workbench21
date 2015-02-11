@@ -1,0 +1,56 @@
+# This file contains regular expressions for matching full stops which do
+# not serve as sentence boundaries. Each line contains a java.util.regex
+# .Pattern regular expression that matches the respective full stops as
+# well as the replacement string separated by exactly one tab stop. All
+# matching full stops must be replaced by asterisks. The syntax of this
+# file is explained in the tutorial 'Getting Started with DIAsDEM Workbench
+# 2.1: A Case-Based Approach'. Before these regular expressions are matched
+# against the text archive, full stops in abbreviations listed in the file
+# ${PARAMETER_DIRECTORY}/createTextUnits/de/AbbreviationsDE.txt have been
+# replaced by asterisks: 'Ph*D*' corresponds to the actual term 'Ph.D.'.
+#
+# full stops in dates
+#
+# There are no English regular expressions yet. However, see the file
+# ../de/FullStopRegexDE.txt for German example!
+#
+# full stops in abbreviations not preceded by a letter
+#
+# There are no English regular expressions yet. However, see the file
+# ../de/FullStopRegexDE.txt for German example!
+#
+# full stops in generic abbreviations such as titles (e.g., 'Dipl.-Kfm.')
+#
+# There are no English regular expressions yet. However, see the file
+# ../de/FullStopRegexDE.txt for German example!
+#
+# full stops in numbers (longest numbers have to matched first)
+#
+(\s*[0-9]+)\.(\s*[0-9]+)\.(\s*[0-9]+)\.(\s*[0-9]+)\.(\s*[0-9]+)	$1\*$2\*$3\*$4\*$5
+(\s*[0-9]+)\.(\s*[0-9]+)\.(\s*[0-9]+)\.(\s*[0-9]+)	$1\*$2\*$3\*$4
+(\s*[0-9]+)\.(\s*[0-9]+)\.(\s*[0-9]+)	$1\*$2\*$3
+(\s*[0-9]+)\.(\s*[0-9]+)	$1\*$2
+# (\s*[0-9]{1,3})\.(\s)	$1\*$2
+([a-z=\$]\s*)\.([0-9\$]{1,}\s*[A-Za-z\)])	$1\*$2
+(^|\s|,|;)([iIvVxX]{1,10})\.(\s|\)\s)	$1$2\*$3
+#
+# full stops in generic abbreviations such as H.-P. and A.B.C.
+#
+([A-ZÖÄÜ]{1,1})[\.\*](\s?\-\s?[A-ZÖÄÜ]{1,1})[\.\*](\s|\-)	$1\*$2\*$3
+(^[a-zöäüßA-ZÖÄÜ\[]{1,2}|\s+[\'\"\(\[]*[a-zöäüßA-ZÖÄÜ]{1,2})[\.\*](\s*[a-zöäüßA-ZÖÄÜ]{1,2})[\.\*](\s*[a-zöäüßA-ZÖÄÜ]{1,2})[\.\*](\s*[a-zöäüßA-ZÖÄÜ]{1,2})[\.\*](\s*[a-zöäüßA-ZÖÄÜ]{1,2})[\.\*](\s*[a-zöäüßA-ZÖÄÜ]{1,2})[\.\*](\s*[a-zöäüßA-ZÖÄÜ]{1,2})[\.\*](\s*[a-zöäüßA-ZÖÄÜ]{1,2}\s+|\s+|\-|,|;|$)	 $1\*$2\*$3\*$4\*$5\*$6\*$7*$8
+(^[a-zöäüßA-ZÖÄÜ\[]{1,2}|\s+[\'\"\(\[]*[a-zöäüßA-ZÖÄÜ]{1,2})[\.\*](\s*[a-zöäüßA-ZÖÄÜ]{1,2})[\.\*](\s*[a-zöäüßA-ZÖÄÜ]{1,2})[\.\*](\s*[a-zöäüßA-ZÖÄÜ]{1,2})[\.\*](\s*[a-zöäüßA-ZÖÄÜ]{1,2})[\.\*](\s*[a-zöäüßA-ZÖÄÜ]{1,2})[\.\*](\s*[a-zöäüßA-ZÖÄÜ]{1,2}\s+|\s+|\-|,|;|$)	 $1\*$2\*$3\*$4\*$5\*$6\*$7
+(^[a-zöäüßA-ZÖÄÜ\[]{1,2}|\s+[\'\"\(\[]*[a-zöäüßA-ZÖÄÜ]{1,2})[\.\*](\s*[a-zöäüßA-ZÖÄÜ]{1,2})[\.\*](\s*[a-zöäüßA-ZÖÄÜ]{1,2})[\.\*](\s*[a-zöäüßA-ZÖÄÜ]{1,2})[\.\*](\s*[a-zöäüßA-ZÖÄÜ]{1,2})[\.\*](\s*[a-zöäüßA-ZÖÄÜ]{1,2}\s+|\s+|\-|,|;|$)	 $1\*$2\*$3\*$4\*$5\*$6
+(^[a-zöäüßA-ZÖÄÜ\[]{1,2}|\s+[\'\"\(\[]*[a-zöäüßA-ZÖÄÜ]{1,2})[\.\*](\s*[a-zöäüßA-ZÖÄÜ]{1,2})[\.\*](\s*[a-zöäüßA-ZÖÄÜ]{1,2})[\.\*](\s*[a-zöäüßA-ZÖÄÜ]{1,2})[\.\*](\s*[a-zöäüßA-ZÖÄÜ]{1,2}\s+|\s+|\-|,|;|$)	 $1\*$2\*$3\*$4\*$5
+(^[a-zöäüßA-ZÖÄÜ\[]{1,2}|\s+[\'\"\(\[]*[a-zöäüßA-ZÖÄÜ]{1,2})[\.\*](\s*[a-zöäüßA-ZÖÄÜ]{1,2})[\.\*](\s*[a-zöäüßA-ZÖÄÜ]{1,2})[\.\*](\s*[a-zöäüßA-ZÖÄÜ]{1,2}\s+|\s+|\-|,|;|$)	 $1\*$2\*$3\*$4
+(^[a-zöäüßA-ZÖÄÜ\[]{1,2}|\s+[\'\"\(\[]*[a-zöäüßA-ZÖÄÜ]{1,2})[\.\*](\s*[a-zöäüßA-ZÖÄÜ]{1,2})[\.\*](\s*[a-zöäüßA-ZÖÄÜ]{1,2}\s+|\s+|\-|,|;|$)	 $1\*$2\*$3
+(^[a-zöäüßA-ZÖÄÜ\[]{1,1}|\s+[\'\"\(\[]*[a-zöäüßA-ZÖÄÜ]{1,1})[\.\*](\s*[a-zöäüßA-ZÖÄÜ]{1,2}\s+|\s*|\-|,|;|$)	 $1\*$2
+#
+# full stops in URLs and e-mail addresses
+#
+www\.([a-zA-Z0-9_\-]+).([a-zA-Z0-9_\-]+)	www\*$1\*$2
+([a-zA-Z0-9_\-]+)\@([a-zA-Z0-9_\-]+).([a-zA-Z0-9_\-]+)	$1\@$2\*$3
+([a-zA-Z0-9_\-]+)\.([a-zA-Z0-9_\-]+)\@([a-zA-Z0-9_\-]+).([a-zA-Z0-9_\-]+)	$1\*$2\@$3\*$4
+#
+# other full stops not serving as sentence boundaries
+#
+[\.]{3}	\*\*\*

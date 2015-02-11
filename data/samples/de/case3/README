@@ -1,0 +1,12 @@
+This directory contains 170 German Commercial Register entries 
+published by the district court Postsdam in 1999 via its Web site 
+(http://www.amtsgericht-potsdam.org). Each entry announces the 
+closing of the corresponding company in the Potsdam district. 
+Commercial Register entries are regulated by the German 
+Commercial Code, i.e. Handelsgesetzbuch (HGB). 
+
+Date of compilation: 2002-11-14
+Language of texts: German
+Text encoding: ISO-8856-1
+Line feed: Unix, but each entry is stored in a single line
+Information: Karsten Winkler (kwinkler@ebusiness.hhl.de)

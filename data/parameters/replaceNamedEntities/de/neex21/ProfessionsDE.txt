@@ -1,0 +1,93 @@
+# This file contains frequently occuring professions for usage with NEEX 2.1
+# (Actions -> Prepare Data Set -> Replace Named Entities 2.1) only. NEEX 2.1 
+# can process both single- (e.g., 'Angestellter') and multi-token terms 
+# containing for example blank spaces (e.g., 'Kaufmännischer Angestellter'). 
+# Professions processed case-sensitively. Hence, the profession 'Apotheker' 
+# will not match the term 'APOTHEKER'. Professions containing special 
+# characters such as 'Dipl.-Kaufmann' or 'Kfz.-Schlosser' must be entered
+# in their tokenized form 'Dipl. - Kaufmann' or 'Kfz. - Schlosser'. To that 
+# end, the DIAsDEM task Actions -> Miscellaneous -> Tokenize Parameter Text 
+# File might be employed. All professions containing full stops such as must
+# either be listed in the file ${PARAMETER_DIRECTORY}/createTextUnits/de
+# /AbbreviationsDE.txt (e.g., 'Kfz.') or be matched by a regular expression 
+# in the file ${PARAMETER_DIRECTORY}/createTextUnits/de/FullStopRegexDE.txt.
+# For obvious reasons, do not include text unit descriptors such as the term
+# 'Geschäftsführer' in this file.
+Angestellter
+Angestellte
+Apotheker
+Apothekerin
+Bankkaufmann
+Bankkauffrau
+Bauingenieur
+Bauingenieurin
+Bürgermeister
+Bürgermeisterin
+Bürokaufmann
+Bürokauffrau
+Dipl. - Kaufmann
+Dipl. - Kauffrau
+Dipl. - Mathematiker
+Dipl. - Mathematikerin
+Dipl. - Ökonom
+Dipl. - Ökonomin
+Dipl. - Volkswirt
+Dipl. - Volkswirtin
+Diplom - Ingenieur
+Diplom - Ingenieurin
+Diplompädagoge
+Diplompädagogin
+Elektroingenieur
+Elektroingenieurin
+Elektromeister
+Elektromeisterin
+Fabrikant
+Fabrikantin
+Fleischermeister
+Fleischermeisterin
+Hochschullehrer
+Hochschullehrerin
+Industriekaufmann
+Industriekauffrau
+Jurist
+Juristin
+Kaufmann
+Kauffrau
+Kaufmännischer Angestellter
+Kaufmännische Angestellte
+kaufmännischer Angestellter
+kaufmännische Angestellte
+Kfz - Schlosser
+Kfz - Schlosserin
+Kfz. - Schlosser
+Kfz. - Schlosserin
+Oberbürgermeister
+Oberbürgermeisterin
+Pharmazierat
+Pharmazierätin
+Physiker
+Physikerin
+Rechtsanwalt
+Rechtsanwältin
+Rechtsanwaltsgehilfe
+Rechtsanwaltsgehilfin
+Speditionskaufmann
+Speditionskauffrau
+Steuerberater
+Steuerberaterin
+Steuerfachgehilfe
+Steuerfachgehilfin
+Student
+Studentin
+Technischer Angestellter
+Technische Angestellte
+technischer Angestellter
+technische Angestellte
+Unternehmensberater
+Unternehmensberaterin
+Wirtschaftsfachmann
+Wirtschaftsfachfrau
+Wirtschaftsprüfer
+Wirtschaftsprüferin
+Wirtschaftswissenschaftler
+Wirtschaftswissenschaftlerin

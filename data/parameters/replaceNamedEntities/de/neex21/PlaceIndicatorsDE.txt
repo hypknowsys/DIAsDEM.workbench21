@@ -1,0 +1,39 @@
+# Place indicators are not case-sensitive.
+# Place indicator terms frequently preceding organizations must be 
+# entered in reverse order of their tokens due to backward search.
+#
+# in Java: 99999 und <<company>> und <<name>>
+,
+;
+:
+(
+)
+"
+'
+in
+von
+nach
+aus
+bei
+auf
+und
+früher
+nunmehr
+beide
+Sitz
+Hauptniederlassung
+Zweigniederlassung
+Niederlassung
+Filiale
+NL
+Niederl.
+Zweigniederl.
+wohnhaft
+wh.
+Amtsgericht
+Amtsgerichts
+Amtsgerichtes
+Registergericht
+Registergerichts
+Registergerichtes
+AG

@@ -1,0 +1,28 @@
+# This file contains terms that frequently follow organization suffixes
+# such as 'GmbH' or 'AG' for usage with NEEX 2.1 (Actions -> Prepare Data 
+# Set -> Replace Named Entities 2.1) only. NEEX 2.1 can process both single- 
+# (e.g., 'Import') and multi-token organization affixes containing for 
+# example blank spaces (e.g., 'Import und Export'). Organization affixes are
+# not processed case-sensitively. Hence, the entered affix 'Import' will also 
+# match the term 'IMPORT'. Organization affixes containing special characters 
+# such as '(Deutschland)' or 'Wach- und Werkschutz' must be entered in their 
+# tokenized form '( Deutschland )' or 'Wach - und Werkschutz'. To that end, 
+# the DIAsDEM task Actions -> Miscellaneous -> Tokenize Parameter Text File 
+# might be employed. 
+Import
+Export
+Import und Export
+Wohnungsbaugesellschaft
+Grundstücksgesellschaft
+Bauträgergesellschaft
+Ingenieurbüro
+Industrievertretungen
+Warenhandelsgesellschaft
+Generalübernehmer
+( Deutschland )
+Wirtschaftsprüfungsgesellschaft
+Steuerberatungsgesellschaft
+Unternehmensberatung
+Wach - und Werkschutz
+Internationale Spedition
+Baugesellschaft

@@ -1,0 +1,8 @@
+# This file contains placeholders of three basic named entities. It is 
+# required by NEEX 2.0 (Actions -> Miscellaneous -> Extend Composite NE
+# Rules 2.0) only. You must not modify this file.
+content
+String
+"<<place>>"
+"<<forename>>"
+"<<surname>>"

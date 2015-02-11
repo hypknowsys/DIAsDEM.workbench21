@@ -1,0 +1,53 @@
+# This file contains frequent academic and professional titles for usage 
+# with NEEX 2.0 (Actions -> Prepare Data Set -> Replace Named Entities 2.0)
+# only. NEEX 2.0 can only process single-token titles which do not contain 
+# blank spaces. Titles are processed case-sensitively. Hence, the second 
+# title 'Dipl.-Ingenieurin' will not match the term 'DIPL.-INGENIEURIN'.
+# Note, the first title 'Prof._Dr.' is a multi-token term whose real
+# counterpart 'Prof. Dr.' is listed in the file ${PARAMETER_DIRECTORY}
+# /tokenizeTextUnits/de/neex20/MultiTokenWordsDE.txt. All titles containing 
+# full stops such as must either be listed in the file ${PARAMETER_DIRECTORY}
+# /createTextUnits/de/AbbreviationsDE.txt (e.g., 'Dr.') or be matched by
+# a regular expression in the file ${PARAMETER_DIRECTORY}/createTextUnits
+# /de/FullStopRegexDE.txt (e.g., 'Dipl.-Ingenieurin'). Terms including
+# full stops, dashes and other special characters must be normalized (i.e.,
+# de-tokenized) by an appropriate entry in the file ${PARAMETER_DIRECTORY}
+# /tokenizeTextUnits/de/NormalizeRegexDE.txt.
+Prof._Dr.
+Dipl.-Ingenieurin
+Kaufmann
+Diplom-Betriebswirtin
+Steuerberaterin
+Diplom-Bauingenieur
+Ing.
+PD
+Dipl.-Volkswirtin
+Dipl.-Bauingenieur
+Diplom-Kaufmann
+Dipl.-Kfm.
+Dipl.-Oec.
+Prof.
+Diplom-Bauingenieurin
+Dipl.-Ingenieur
+Diplom-Volkswirt
+Kauffrau
+Diplom-Betriebswirt
+Steuerberater
+Dipl.-Ing.
+Dr.
+Dipl.-Kaufmann
+Dipl.-Betriebswirt
+Diplom-Kauffrau
+Dipl.-Betriebswirtin
+Diplom-Ingenieurin
+Rechtsanwalt
+Diplom-Ingenieur
+Wirtschaftprüfer
+Diplom-Volkswirtin
+Dipl.-Kauffrau
+Dipl.-Bauingenieurin
+Rechtsanwältin
+Dipl.-Kffr.
+Dipl.-Math.
+Wirtschaftsprüferin
+Dipl.-Volkswirt

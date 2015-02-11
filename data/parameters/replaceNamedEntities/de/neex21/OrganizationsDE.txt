@@ -1,0 +1,70 @@
+# This file contains complete names of large organization with NEEX 2.1 
+# (Actions -> Prepare Data Set -> Replace Named Entities 2.1) only. NEEX 
+# 2.1 can process both single- (e.g., 'Adidas') and multi-token organizations
+# containing for example blank spaces (e.g., 'Adidas - Salomon'). They are 
+# processed case-sensitively. Hence, the organization 'Adidas' will not match
+# the term 'ADIDAS'. All organizations containing full stops must be listed 
+# in the file ${PARAMETER_DIRECTORY}/createTextUnits/de/AbbreviationsDE.txt 
+# to ensure correct sentence splits. Organizations containing special 
+# characters such as 'Adidas-Salomon' or 'E.ON' must be entered in their 
+# tokenized form 'Adidas - Salomon' or 'E.ON'. Note, 'E.ON' is a abbreviation 
+# listed in ${PARAMETER_DIRECTORY}/createTextUnits/de/AbbreviationsDE.txt.
+# Include organizations in this file, if their occurrences without known
+# organiaztion suffixes have to be extracted or if they include terms listed
+# in the file containing organization indicators.
+# 
+#
+# Companies that are or that had been listed in the German stock index DAX
+#
+Adidas
+Adidas - Salomon
+Allianz
+Altana
+BASF
+Bayer
+BMW
+Bayerische Vereinsbank
+Bayerische Hypo - Bank
+Bayerische Hypo - und Vereinsbank
+Commerzbank
+Continental
+Daimler
+DaimlerChrysler
+Degussa
+Degussa - Hüls
+Deutsche Babcock
+Deutsche Bank
+Deutsche Börse
+Deutsche Post
+Deutsche Telekom
+Dresdner Bank
+Epcos
+EON
+E.ON
+Feldmühle Nobel
+Fresenius Medical Care
+Henkel
+Hoechst
+Infinion
+Karstadt
+Kaufhof
+Linde
+Lufthansa
+MAN
+Mannesmann
+Metallgesellschaft
+Metro
+MLP
+Münchner Rück
+Nixdorf
+Preussag
+RWE
+SAP
+Schering
+Siemens
+Thyssen
+ThyssenKrupp
+Veba
+Viag
+VW
+Volkswagen

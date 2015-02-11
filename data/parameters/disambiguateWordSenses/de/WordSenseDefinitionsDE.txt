@@ -1,0 +1,19 @@
+# This file contains terms along with potential term sense definitions. The disambiguation
+# algorithm is inspired by the section 'Diasambiguation based on sense definitions' on pp.
+# 242-244 in Christopher D. Manning and Hinrich Schuetze: Foundations of Statistical Natural
+# Language Processing. MIT Press, 2001. The sense of terms (i.e., tokens without blanks) is
+# determined as follows: If there is only one sense s1 defined for a token, at least one
+# sense indicator token must occur in the specified context to tag the token as s1. A token
+# is tagged by appending the sense tag to the token itself: token := token + sense_tag. If
+# there are n senses s1, ..., sn defined for a token, the sense si (i = 1, ..., n) is chosen
+# that has most (but at least one) occurences of indicator tokens in the context of the token.
+# If two or more senses have the same number of indicator term occurrences, the first sense
+# tag is chosen. The context of counting sense indicator token occurrences is determined as
+# follows: Context = 0 defines the entire text unit as context, whereas Context = 1, 2, ..., n
+# defines the respective number of tokens that precede and follow the token to be disambiguated
+# as context. The non-empty list of sense indicator tokens is separated by commas without blank
+# spaces. Sense indicators can be strings like <<number>> that indicate named entity types. 
+# Format: Format:
+# token_to_be_disambiguated<tab>sense_tag<tab>context<tab>comma_separated_list_of_indicator_tokens
+Bank	/s:Geldinstitut	0	Geld,einzahlen,auszahlen,Darlehen,<<amount_of_money>>
+Bank	/s:Sitzgelegenheit	0	sitzen,hinsetzen,Park

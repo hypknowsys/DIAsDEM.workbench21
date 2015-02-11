@@ -1,0 +1,93 @@
+# This file contains frequently occuring place affixes such as names of
+# rivers and districts for usage with NEEX 2.1 (Actions -> Prepare Data Set 
+# -> Replace Named Entities 2.1) only. NEEX 2.1 can process both single- 
+# (e.g., 'Main') and multi-token place affixes containing for example blank 
+# spaces (e.g., '/ Main'). Place affixes are processed case-sensitively. 
+# Hence, the affix 'Main' will not match the term 'main'. Place affixes 
+# containing special characters such as '/Main' or '(Main)' must be 
+# entered in their tokenized form '/ Main' or '( Main )'. To that end, the 
+# DIAsDEM task Actions -> Miscellaneous -> Tokenize Parameter Text File 
+# might be employed. The syntax of this file is explained in the tutorial 
+# 'Getting Started with DIAsDEM Workbench 2.1: A Case-Based Approach'. 
+# Each place affix can either be a weak or a strong place affix, whereas 
+# places can not end with a weak affix. Each line contains the affix type
+# (either 'weak_place_affix' or 'strong_place_affix') and the affix itself
+# separated by exactly one tab stop.
+weak_place_affix	an der
+weak_place_affix	a. d.
+weak_place_affix	im
+weak_place_affix	in
+weak_place_affix	in der
+weak_place_affix	i. d.
+weak_place_affix	ob der
+weak_place_affix	auf
+weak_place_affix	/
+weak_place_affix	-
+weak_place_affix	bei
+weak_place_affix	b.
+weak_place_affix	am
+weak_place_affix	a.
+weak_place_affix	unter
+weak_place_affix	unter den
+weak_place_affix	unter der
+weak_place_affix	vor der
+weak_place_affix	v. d.
+weak_place_affix	vorm
+weak_place_affix	v.
+strong_place_affix	Anhalt
+strong_place_affix	, Anhalt
+strong_place_affix	Bodensee
+strong_place_affix	, Bodensee
+strong_place_affix	Deister
+strong_place_affix	( Deister )
+strong_place_affix	Donau
+strong_place_affix	( Donau )
+strong_place_affix	Elbe
+strong_place_affix	( Elbe )
+strong_place_affix	Elster
+strong_place_affix	( Elster )
+strong_place_affix	Ems
+strong_place_affix	( Ems )
+strong_place_affix	Harz
+strong_place_affix	( Harz )
+strong_place_affix	Havel
+strong_place_affix	( Havel )
+strong_place_affix	Hessen
+strong_place_affix	, Hessen
+strong_place_affix	Lausitz
+strong_place_affix	( Lausitz )
+strong_place_affix	Oberlausitz
+strong_place_affix	( Oberlausitz )
+strong_place_affix	Main
+strong_place_affix	( Main )
+strong_place_affix	/ Main
+strong_place_affix	/ M.
+strong_place_affix	Müritz
+strong_place_affix	, Müritz
+strong_place_affix	Neckar
+strong_place_affix	( Neckar )
+strong_place_affix	Neiße
+strong_place_affix	( Neiße )
+strong_place_affix	Oder
+strong_place_affix	( Oder )
+strong_place_affix	Ruhr
+strong_place_affix	( Ruhr )
+strong_place_affix	Saale
+strong_place_affix	( Saale )
+strong_place_affix	/ S.
+strong_place_affix	Sauerland
+strong_place_affix	, Sauerland
+strong_place_affix	Spree
+strong_place_affix	( Spree )
+strong_place_affix	Spreewald
+strong_place_affix	( Spreewald )
+strong_place_affix	Taunus
+strong_place_affix	, Taunus
+strong_place_affix	Uckermark
+strong_place_affix	, Uckermark
+strong_place_affix	Unstrut
+strong_place_affix	( Unstrut )
+strong_place_affix	Westf.
+strong_place_affix	( Westf. )
+strong_place_affix	Westf
+strong_place_affix	( Westf )

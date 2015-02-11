@@ -1,0 +1,44 @@
+#!/bin/sh
+
+# DIAsDEM Workbench 2.2 (http://www.hypKNOWsys.org)
+#
+# After setting the following two environment variables, DIAsDEMbatch -- the 
+# command line batch script processor of the DIAsDEM Workbench -- can be
+# launched using this shell script. Make ${DIAsDEM_HOME}/bin your current
+# working directory and submit the following command at the system prompt:
+#
+# prompt% ./diasdembatch <DIAsDEM Batch Script File Name> verbose
+#
+# The first environment variable JAVA_HOME contains the absolute path to
+# the Java directory. It must be adjusted according to your system.
+# Example: JAVA_HOME=/usr/lib/j2sdk1.4.0_01
+#
+# The second environment variable DIAsDEM_HOME contains the path of the
+# DIAsDEM installation. This directory contains the sub-directories /bin,
+# /data, /doc and /lib. The environment variable DIAsDEM_HOME must be 
+# adjusted according to the installation of the DIAsDEM Workbench. 
+# Example: DIAsDEM_HOME=/home/user1/DIAsDEM.workbench22
+#
+# Note: You may have to adjust the size of memory allocated to the Java
+# Virtual Machine in the environment variable DIAsDEM_JAVA_OPTIONS (-ms:
+# size at start of JVM resp. -mx: maximum size). The size of two stacks
+# used by the JVM (-ss resp. -oss) can be changed as well. See the Java
+# tools documentation for details.
+
+
+DIAsDEM_HOME=/users/yourNamePath/DIAsDEM.workbench22
+JAVA_HOME=/usr/yourJavaPath
+
+
+# Please do not modify the following lines without appropriate knowledge.
+# Note that the memory allocated to the Java virtual machine corresponds 
+# is appropriate for a computer with 256 MB RAM. Note that two TreeTagger
+# directories must be included in the environment variable PATH before
+# starting the DIAsDEM Workbench. TreeTagger is available for Linux and 
+# Solaris. Simply ask google.com for the keywords 'TreeTagger download'.
+
+
+DIAsDEM_JAVA_OPTIONS="-ms32m -mx200m -ss4m -oss4m -Dfile.encoding=ISO-8859-1"
+PATH=${PATH}:/users/yourNamePath/treetagger/cmd:/users/yourNamePath/treetagger/bin
+
+${JAVA_HOME}/bin/java ${DIAsDEM_JAVA_OPTIONS} -classpath ${DIAsDEM_HOME}/lib/diasdem-workbench-22.jar:${DIAsDEM_HOME}/lib/weka-3.4.3.jar:${DIAsDEM_HOME}/lib/jdom-1.0.jar:${DIAsDEM_HOME}/lib/gnu-regexp-1.0.8.jar:${DIAsDEM_HOME}/lib/looks-1.2.2.jar:${DIAsDEM_HOME}/lib/forms-1.0.2.jar:${DIAsDEM_HOME}/lib/googleapi.jar org.hypknowsys.diasdem.client.commandLine.DIAsDEMbatchProcessor $1 $2

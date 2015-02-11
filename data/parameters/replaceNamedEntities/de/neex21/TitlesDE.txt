@@ -1,0 +1,52 @@
+# This file contains frequent academic and professional titles  NEEX 2.1 can 
+# process both single- (e.g., 'Prof.') and multi-token titles containing for 
+# example blank spaces (e.g., 'Prof. Dr.'). Titles are processed case-
+# sensitively. Hence, the second title 'Dipl.-Ingenieurin' will not match the 
+# term 'DIPL.-INGENIEURIN'. Title containing special characters such as 'Prof.
+# Dr.' or 'Dipl.-Ingenieurin' or 'Dipl.-Kfm. (FH)' must be entered in their 
+# tokenized form 'Prof. Dr.', 'Dipl.-Ingenieurin' or 'Dipl.-Kfm. ( FH )'. To 
+# that end, the DIAsDEM task Actions -> Miscellaneous -> Tokenize Parameter 
+# Text File might be employed. All titles containing full stops such as must 
+# either be listed in the file ${PARAMETER_DIRECTORY}/createTextUnits/de
+# /AbbreviationsDE.txt (e.g., 'Dr.') or be matched by a regular expression in 
+# the file ${PARAMETER_DIRECTORY}/createTextUnits/de/FullStopRegexDE.txt 
+# (e.g., 'Dipl.-Ingenieurin'). 
+Prof. Dr.
+Dipl.-Ingenieurin
+Dipl.-Kfm. ( FH )
+Kaufmann
+Diplom - Betriebswirtin
+Steuerberaterin
+Diplom - Bauingenieur
+Ing.
+PD
+Dipl.-Volkswirtin
+Dipl.-Bauingenieur
+Diplom - Kaufmann
+Dipl.-Kfm.
+Dipl.-Oec.
+Prof.
+Diplom - Bauingenieurin
+Dipl.-Ingenieur
+Diplom - Volkswirt
+Kauffrau
+Diplom - Betriebswirt
+Steuerberater
+Dipl.-Ing.
+Dr.
+Dipl.-Kaufmann
+Dipl.-Betriebswirt
+Diplom - Kauffrau
+Dipl.-Betriebswirtin
+Diplom - Ingenieurin
+Rechtsanwalt
+Diplom - Ingenieur
+Wirtschaftprüfer
+Diplom - Volkswirtin
+Dipl.-Kauffrau
+Dipl.-Bauingenieurin
+Rechtsanwältin
+Dipl.-Kffr.
+Dipl.-Math.
+Wirtschaftsprüferin
+Dipl.-Volkswirt

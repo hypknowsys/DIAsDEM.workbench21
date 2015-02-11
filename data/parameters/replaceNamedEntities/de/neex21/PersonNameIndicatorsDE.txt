@@ -1,0 +1,54 @@
+# This file contains terms and term groups which frequently precede person 
+# names for usage with NEEX 2.1 (Actions -> Prepare Data Set -> Replace 
+# Named Entities 2.1) only. Person name indicators are processed case-
+# sensitively. Hence, the person name indicator 'Herr' will not match the 
+# term 'HERR'. Note, groups of indicator terms such as 'Gesellschafter:'
+# must be entered tokenized and in reverse order (e.g., ': Gesellschafter'),
+# because NEEX 2.1 employs a backward search algorithm. All person name
+# indicators containing full stops must be listed in ${PARAMETER_DIRECTORY}
+# /createTextUnits/de/AbbreviationsDE.txt to ensure correct sentence splits.
+# Each line contains the type literal as well as the indicator term (group)
+# separated by exactly one tab stop. Valid person name indicator types are 
+# 'weak_pos_person_indicator', 'strong_pos_person_indicator' and 
+# 'strong_neg_person_indicator'. Note, person name indicators of the type
+# 'weak_pos_person_indicator' will not in NEEX 2.1. The occurrence of 
+# negative indicators is checked before and after any person name candidate. 
+# Hence it should comprise of one token only.
+#
+strong_pos_person_indicator	Herr
+strong_pos_person_indicator	Herrn
+strong_pos_person_indicator	Hr.
+strong_pos_person_indicator	Hrn.
+strong_pos_person_indicator	Frau
+strong_pos_person_indicator	Fr.
+strong_pos_person_indicator	Mr.
+strong_pos_person_indicator	Mrs.
+strong_pos_person_indicator	Ms.
+strong_pos_person_indicator	bestellt
+strong_pos_person_indicator	bestellte
+strong_pos_person_indicator	Gesellschafter
+strong_pos_person_indicator	Gesellschafterin
+strong_pos_person_indicator	Geschäftsführer
+strong_pos_person_indicator	Geschäftsführerin
+strong_pos_person_indicator	geb.
+strong_pos_person_indicator	geborene
+strong_pos_person_indicator	Einzelkaufmann
+strong_pos_person_indicator	Einzelkauffrau
+strong_pos_person_indicator	Inhaber
+strong_pos_person_indicator	Inhaberin
+strong_pos_person_indicator	Prokurist
+strong_pos_person_indicator	Prokuristin
+strong_neg_person_indicator	"
+strong_neg_person_indicator	in
+strong_neg_person_indicator	im
+strong_neg_person_indicator	Firma
+strong_neg_person_indicator	OT
+strong_neg_person_indicator	Ortsteil
+strong_neg_person_indicator	Nr.
+strong_neg_person_indicator	St.
+strong_neg_person_indicator	Sankt
+strong_neg_person_indicator	Apotheke
+strong_neg_person_indicator	Straße
+strong_neg_person_indicator	Str.
+strong_neg_person_indicator	Flughafen
+strong_neg_person_indicator	Bahnhof

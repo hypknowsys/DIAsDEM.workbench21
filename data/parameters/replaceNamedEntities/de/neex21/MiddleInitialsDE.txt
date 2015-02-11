@@ -1,0 +1,44 @@
+# This file contains frequent German middle initials for usage with NEEX 
+# 2.1 (Actions -> Prepare Data Set -> Replace Named Entities 2.1) only. 
+# NEEX 2.1 can process both single- (e.g., 'A.' or 'von') and multi-token
+# middle initials containing for example blank spaces (e.g., 'de la'). 
+# Middle initials are processed case-sensitively. Hence, the second first 
+# middle initial 'A.' will not match the token 'a.'.
+de la
+A.
+B.
+C.
+D.
+E.
+F.
+G.
+H.
+I.
+J.
+K.
+L.
+M.
+N.
+O.
+P.
+Q.
+R.
+S.
+St.
+T.
+U.
+V.
+W.
+Ü.
+Ö.
+Ä.
+von
+van
+De
+de
+Du
+du
+zu
+zum
+di
+Di

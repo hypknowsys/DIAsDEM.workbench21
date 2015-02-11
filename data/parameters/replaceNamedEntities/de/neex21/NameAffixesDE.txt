@@ -1,0 +1,20 @@
+# This file contains frequently occuring name affixes for usage with 
+# NEEX 2.1 (Actions -> Prepare Data Set -> Replace Named Entities 2.1) 
+# only. NEEX 2.1 can process both single- (e.g., 'jun.') and multi-
+# token name affixes containing for example blank spaces (e.g., ', jun.').
+# Name affixes are processed case-sensitively. Hence, the affix 'Ph.D.' 
+# will not match the term 'PH.D.'. Name affixes containing special 
+# characters such as ',jun.' or 'Ph.D.' must be entered in their tokenized
+# form ', jun.' or 'Ph.D.' as both 'jun.' and 'Ph.D.' are contained in the 
+# list of known German abbreviations. To that end, the DIAsDEM task Actions 
+# -> Miscellaneous -> Tokenize Parameter Text File might be employed. 
+Ph.D.
+, Ph.D.
+sen.
+, sen.
+jun.
+, jun.
+Sen.
+, Sen.
+Jun.
+, Jun.

@@ -1,0 +1,12 @@
+This directory contains 638 German corporate ad hoc news published 
+by Deutsche Gesellschaft fuer Ad-hoc-Publizitaet in the 4th quarter
+1999 via its Web site (http://www.dgap.deg). Each file contains news
+announcing issues that might habe an influence on share prices of 
+publicly traded compynies. German law, i.e. Wertpapierhandelsgesetz,
+requires public companies to announce ad hoc news. 
+
+Date of compilation: 2002-11-03
+Language of texts: German
+Text encoding: ISO-8856-1
+Line feed: Unix, but each entry is stored in a single line
+Information: Karsten Winkler (kwinkler@ebusiness.hhl.de)

@@ -1,0 +1,46 @@
+# This file contains rules for instantiating basic named entities such as 
+# dates, amounts of money, URLs and e-mail addresses. Use this file only 
+# with NEEX 2.0 (Actions -> Prepare Data Set -> Replace Named Entities 2.0).
+# Each line contains a java.util.regex.Pattern regular expression that 
+# matches sequences of tokens as well as the corresponding name of the basic
+# named entity. The syntax of this file must conform to org.hypknowsys.misc
+# .io.CsvFile: Do not delete the first two meta-data lines and quote all 
+# values. The following basic named entities could be instatiated using 
+# regular expressions: 'number', 'date', 'time', 'amount_of_money', 
+# 'paragraph', 'email', 'url', 'organization_id', 'document_id', 'court', 
+# 'postal_code', 'isin' and 'wkn'.
+RegularExpression;BasicNamedEntityType
+String;String
+#
+# amounts of money as normalized in the task Actions 
+# -> Prepare Data Set ->Tokenize Text Units
+#
+"\d{1,}[,\.\d]{1,}\s(DEM|EUR|ATS)";"amount_of_money"
+#
+# dates as normalized in the task Actions -> Prepare Data Set 
+# ->Tokenize Text Units
+#
+"\d{1,2}\.\d{1,2}\.\d{2,4}";"date"
+#
+# paragraphs in articles of associations
+#
+"[\§]{1,2}\s*\d+\s*[\s\d\.,A-Za-zÀ-ÿ]*[(][\sA-Za-zÀ-ÿ,\.\(\)]*[)]","paragraph"
+#
+# paragraphs in legal codes
+#
+"[\§]{1,2}\s*\d+[\s\d\(\)\/\-\.,A-Za-zÀ-ÿ]*(Um[wW]G|Umwandlungsgesetz|FGG|des\ Gesetzes\ über\ die\ Angelegenheiten\ der\ freiwilligen\ Gerichtsbarkeit|AO|GmbHG|AktG|Aktiengesetz|KWG|LöschG|HGB)";"paragraph"
+#
+# URLs and e-mail addresses
+#
+"([a-zA-Z0-9_\-]+)\@([a-zA-Z0-9_\-]+).([a-zA-Z0-9_\-]+)";"email"
+"([a-zA-Z0-9_\-]+)\.([a-zA-Z0-9_\-]+)\@([a-zA-Z0-9_\-]+).([a-zA-Z0-9_\-]+)";"email"
+"http:\/\/www\.([a-zA-Z0-9_\-]+).([a-zA-Z0-9_\-]+)";"url"
+"www\.([a-zA-Z0-9_\-]+).([a-zA-Z0-9_\-]+)";"url"
+#
+# Commercial Register IDs
+#
+"HR[AB]\s+\d{1,}";"organization_id"
+#
+# German stock IDs (WKN)
+#
+"WKN(\s+|\s*\:\s+)(\d{6,6}|\d{3,3}\s\d{3,3})";"wkn"

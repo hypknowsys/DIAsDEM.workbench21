@@ -1,0 +1,45 @@
+# This file contains regular expressions that map for example dates and
+# numbers onto their canonicals forms. Each line contains a java.util.regex
+# .Pattern regular expression that matches for example a date expression as
+# well as the replacement string separated by exactly one tab stop. 
+# 
+# dates
+# 
+([0-9]{1,2})\.[\ ]*(Januar|Jan[\.]?)[\ ]*([\d]{2,4})	$1.01.$3
+([0-9]{1,2})\.[\ ]*(Februar|Feb[r]?[\.]?)[\ ]*([\d]{2,4})	$1.02.$3
+([0-9]{1,2})\.[\ ]*(März|M[ä]?r[z]?[\.]?)[\ ]*([\d]{2,4})	$1.03.$3
+([0-9]{1,2})\.[\ ]*(April|Apr[\.]?)[\ ]*([\d]{2,4})	$1.04.$3
+([0-9]{1,2})\.[\ ]*(Mai)[\ ]*([\d]{2,4})	$1.05.$3
+([0-9]{1,2})\.[\ ]*(Juni|Jun[\.]?)[\ ]*([\d]{2,4})	$1.06.$3
+([0-9]{1,2})\.[\ ]*(Juli|Jul[\.]?)[\ ]*([\d]{2,4})	$1.07.$3
+([0-9]{1,2})\.[\ ]*(August|Aug[\.]?)[\ ]*([\d]{2,4})	$1.08.$3
+([0-9]{1,2})\.[\ ]*(September|Sep[t]?[\.]?)[\ ]*([\d]{2,4})	$1.09.$3
+([0-9]{1,2})\.[\ ]*(Oktober|Okt[\.]?)[\ ]*([\d]{2,4})	$1.10.$3
+([0-9]{1,2})\.[\ ]*(November|Nov[\.]?)[\ ]*([\d]{2,4})	$1.11.$3
+([0-9]{1,2})\.[\ ]*(Dezember|Dez[\.]?)[\ ]*([\d]{2,4})	$1.12.$3
+([\ ])([0-9]{1})\.[\ ]*([0-9]{1,2})\.[\ ]*([\d]{2,4})	$10$2.$3.$4
+([\ ][0-9]{1,2})\.[\ ]*([0-9]{1})\.[\ ]*([\d]{2,4})	$1.0$2.$3
+#
+# numbers
+#
+(\s[0-9]{1,3})\.([0-9]{3,3})\.([0-9]{3,3})\.([0-9]{3,3}\s)	$1$2$3$4
+(\s[0-9]{1,3})\.([0-9]{3,3})\.([0-9]{3,3}\s)	$1$2$3
+(\s[0-9]{1,3})\.([0-9]{3,3}\s)	$1$2
+#
+# amounts of money
+#
+([\-]?\s*{0,1}\d{1,}[,.\d]{1,})\s(DM|DEM|Deutsche\s+Mark|D\s+\-\s+Mark)	$1\ DEM
+([\-]?\s*{0,1}\d{1,}[,.\d]{1,})\s(Euro|EUR[O]?|Euros)	$1\ EUR
+([\-]?\s*{0,1}\d{1,}[,.\d]{1,})\s(ATS)	$1\ ATS	
+(DM|DEM|Deutsche\s+Mark|D\s+\-\s+Mark)\s([\-]?\s*{0,1}\d{1,}[,.\d]{1,})	$2\ DEM
+(Euro|EUR[O]?|Euros)\s([\-]?\s*{0,1}\d{1,}[,.\d]{1,})	$2\ EUR
+(ATS)\s([\-]?\s*{0,1}\d{1,}[,.\d]{1,})	$2\ ATS
+#
+# de-tokenization of academic titles (e.g., 'Dipl.-Kfm.')
+#
+(Dipl[\.]{0,1})[\s]{0,1}([\-]{0,1}|[\s]{0,1})[\s]{0,1}([A-Za-zÀ-ÿ]+[\.]{0,1})	$1$2$3
+#
+# special expressions in publishing files
+# 
+\-\-\-[\ ]*	\-
+\-\-[\ ]*	\-
