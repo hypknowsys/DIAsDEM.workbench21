@@ -13,14 +13,14 @@ Import
 Export
 Import und Export
 Wohnungsbaugesellschaft
-Grundstücksgesellschaft
-Bauträgergesellschaft
-Ingenieurbüro
+GrundstÃ¼cksgesellschaft
+BautrÃ¤gergesellschaft
+IngenieurbÃ¼ro
 Industrievertretungen
 Warenhandelsgesellschaft
-Generalübernehmer
+GeneralÃ¼bernehmer
 ( Deutschland )
-Wirtschaftsprüfungsgesellschaft
+WirtschaftsprÃ¼fungsgesellschaft
 Steuerberatungsgesellschaft
 Unternehmensberatung
 Wach - und Werkschutz

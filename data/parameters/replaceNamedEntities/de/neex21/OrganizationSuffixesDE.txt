@@ -3,16 +3,16 @@
 # NEEX 2.1 can process both single- (e.g., 'KG') and multi-token suffixes
 # containing for example blank spaces (e.g., 'GmbH & Co. KG'). Organization 
 # suffixes are processed case-sensitively. Hence, the second suffix 'KG' 
-# will not match the term 'kg'. Note, the term 'mit_beschr‰nkter_Haftung' 
-# is a multi-token term whose real counterpart 'mit beschr‰nkter Haftung'
+# will not match the term 'kg'. Note, the term 'mit_beschr√§nkter_Haftung' 
+# is a multi-token term whose real counterpart 'mit beschr√§nkter Haftung'
 # is listed in the file ${PARAMETER_DIRECTORY}/tokenizeTextUnits/de/neex21
 # /MultiTokenWordsDE.txt. All suffixes of organizations containing full 
 # stops such as 'e.Kfr.' must be listed in the file ${PARAMETER_DIRECTORY}
 # /createTextUnits/de/AbbreviationsDE.txt to ensure correct sentence splits.
 GmbH & Co. KG
 KG
-Gesellschaft_mit_beschr‰nkter_Haftung
-mit_beschr‰nkter_Haftung
+Gesellschaft_mit_beschr√§nkter_Haftung
+mit_beschr√§nkter_Haftung
 Offene_Handelsgesellschaft
 offene_Handelsgesellschaft
 Aktiengesellschaft

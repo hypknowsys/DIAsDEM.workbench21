@@ -1,7 +1,7 @@
 # This file contains frequently occuring professions for usage with NEEX 2.1
 # (Actions -> Prepare Data Set -> Replace Named Entities 2.1) only. NEEX 2.1 
 # can process both single- (e.g., 'Angestellter') and multi-token terms 
-# containing for example blank spaces (e.g., 'Kaufmännischer Angestellter'). 
+# containing for example blank spaces (e.g., 'KaufmÃ¤nnischer Angestellter'). 
 # Professions processed case-sensitively. Hence, the profession 'Apotheker' 
 # will not match the term 'APOTHEKER'. Professions containing special 
 # characters such as 'Dipl.-Kaufmann' or 'Kfz.-Schlosser' must be entered
@@ -12,7 +12,7 @@
 # /AbbreviationsDE.txt (e.g., 'Kfz.') or be matched by a regular expression 
 # in the file ${PARAMETER_DIRECTORY}/createTextUnits/de/FullStopRegexDE.txt.
 # For obvious reasons, do not include text unit descriptors such as the term
-# 'Geschäftsführer' in this file.
+# 'GeschÃ¤ftsfÃ¼hrer' in this file.
 Angestellter
 Angestellte
 Apotheker
@@ -21,22 +21,22 @@ Bankkaufmann
 Bankkauffrau
 Bauingenieur
 Bauingenieurin
-Bürgermeister
-Bürgermeisterin
-Bürokaufmann
-Bürokauffrau
+BÃ¼rgermeister
+BÃ¼rgermeisterin
+BÃ¼rokaufmann
+BÃ¼rokauffrau
 Dipl. - Kaufmann
 Dipl. - Kauffrau
 Dipl. - Mathematiker
 Dipl. - Mathematikerin
-Dipl. - Ökonom
-Dipl. - Ökonomin
+Dipl. - Ã–konom
+Dipl. - Ã–konomin
 Dipl. - Volkswirt
 Dipl. - Volkswirtin
 Diplom - Ingenieur
 Diplom - Ingenieurin
-Diplompädagoge
-Diplompädagogin
+DiplompÃ¤dagoge
+DiplompÃ¤dagogin
 Elektroingenieur
 Elektroingenieurin
 Elektromeister
@@ -53,22 +53,22 @@ Jurist
 Juristin
 Kaufmann
 Kauffrau
-Kaufmännischer Angestellter
-Kaufmännische Angestellte
-kaufmännischer Angestellter
-kaufmännische Angestellte
+KaufmÃ¤nnischer Angestellter
+KaufmÃ¤nnische Angestellte
+kaufmÃ¤nnischer Angestellter
+kaufmÃ¤nnische Angestellte
 Kfz - Schlosser
 Kfz - Schlosserin
 Kfz. - Schlosser
 Kfz. - Schlosserin
-Oberbürgermeister
-Oberbürgermeisterin
+OberbÃ¼rgermeister
+OberbÃ¼rgermeisterin
 Pharmazierat
-Pharmazierätin
+PharmazierÃ¤tin
 Physiker
 Physikerin
 Rechtsanwalt
-Rechtsanwältin
+RechtsanwÃ¤ltin
 Rechtsanwaltsgehilfe
 Rechtsanwaltsgehilfin
 Speditionskaufmann
@@ -87,7 +87,7 @@ Unternehmensberater
 Unternehmensberaterin
 Wirtschaftsfachmann
 Wirtschaftsfachfrau
-Wirtschaftsprüfer
-Wirtschaftsprüferin
+WirtschaftsprÃ¼fer
+WirtschaftsprÃ¼ferin
 Wirtschaftswissenschaftler
 Wirtschaftswissenschaftlerin

@@ -1,11 +1,11 @@
 # This file contains frequently occuring multi-token terms whose blank
 # spaces will be replaced by underscores in order to process them as a single
-# token. For example, the multi-token term 'Gesellschaft mit beschränkter 
-# Haftung' will be transformed into 'Gesellschaft_mit_beschränkter_Haftung'.
+# token. For example, the multi-token term 'Gesellschaft mit beschrÃ¤nkter 
+# Haftung' will be transformed into 'Gesellschaft_mit_beschrÃ¤nkter_Haftung'.
 # Each line contains exactly one multi-token term. This file should be
 # used before extracting named entities such as names of companies with 
 # NEEX 2.0 (Actions -> Prepare Data Set -> Replace Named Entities 2.0) only.
-Gesellschaft mit beschränkter Haftung
+Gesellschaft mit beschrÃ¤nkter Haftung
 Offene Handelsgesellschaft
 offene Handelsgesellschaft
 #

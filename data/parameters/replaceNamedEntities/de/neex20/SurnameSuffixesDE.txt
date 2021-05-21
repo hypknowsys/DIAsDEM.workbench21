@@ -24,7 +24,7 @@ ardi
 art
 asi
 ass
-aß
+aÃŸ
 at
 ath
 atz
@@ -61,7 +61,7 @@ ecki
 edt
 eier
 eit
-eiß
+eiÃŸ
 ek
 el
 eldt
@@ -86,7 +86,7 @@ ewsky
 eyer
 feld
 feldt
-fuß
+fuÃŸ
 gang
 ger
 gk
@@ -256,7 +256,7 @@ ster
 stetter
 stle
 szas
-ßler
+ÃŸler
 tal
 th
 thal
@@ -308,8 +308,8 @@ zic
 zicz
 zke
 zky
-ädt
-äger
-öfer
-ötter
-öll
+Ã¤dt
+Ã¤ger
+Ã¶fer
+Ã¶tter
+Ã¶ll

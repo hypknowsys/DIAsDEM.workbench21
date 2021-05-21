@@ -28,8 +28,8 @@ strong_pos_person_indicator	bestellt
 strong_pos_person_indicator	bestellte
 strong_pos_person_indicator	Gesellschafter
 strong_pos_person_indicator	Gesellschafterin
-strong_pos_person_indicator	Gesch‰ftsf¸hrer
-strong_pos_person_indicator	Gesch‰ftsf¸hrerin
+strong_pos_person_indicator	Gesch√§ftsf√ºhrer
+strong_pos_person_indicator	Gesch√§ftsf√ºhrerin
 strong_pos_person_indicator	geb.
 strong_pos_person_indicator	geborene
 strong_pos_person_indicator	Einzelkaufmann
@@ -48,7 +48,7 @@ strong_neg_person_indicator	Nr.
 strong_neg_person_indicator	St.
 strong_neg_person_indicator	Sankt
 strong_neg_person_indicator	Apotheke
-strong_neg_person_indicator	Straﬂe
+strong_neg_person_indicator	Stra√üe
 strong_neg_person_indicator	Str.
 strong_neg_person_indicator	Flughafen
 strong_neg_person_indicator	Bahnhof

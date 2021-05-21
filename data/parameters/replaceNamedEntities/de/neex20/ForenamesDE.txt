@@ -77,10 +77,10 @@ Emina
 Fahri
 Virgil
 Mileta
-Hüsnü
+HÃ¼snÃ¼
 Gottlieb
 Albino
-Güngör
+GÃ¼ngÃ¶r
 Lioudmila
 Hilde
 Hilda
@@ -91,7 +91,7 @@ Jamal
 Albina
 Mumin
 Gashi
-Süheyla
+SÃ¼heyla
 Maxwell
 Emily
 Mandana
@@ -127,7 +127,7 @@ Edgar
 Laura
 Grigorios
 Justus
-Käte
+KÃ¤te
 Lubos
 Felix
 Heiderose
@@ -203,13 +203,13 @@ Franciszek
 Mihaly
 Tilly
 Ibro
-Jörn
+JÃ¶rn
 Ciro
 Uwe
 Suzan
 Satnam
 Mechmet
-Jörg
+JÃ¶rg
 Jozef
 Mihalj
 Branko
@@ -236,7 +236,7 @@ Aloysia
 Felicia
 Drazen
 Walburg
-György
+GyÃ¶rgy
 Nadia
 Utz
 Stefano
@@ -343,7 +343,7 @@ Friedgard
 Gillian
 Klausdieter
 Klaus
-Yüksel
+YÃ¼ksel
 Anestis
 Ioan
 Kunibert
@@ -400,7 +400,7 @@ Vassilios
 Saverio
 Dzemal
 Jacqueline
-Mathäus
+MathÃ¤us
 Klara
 Federico
 Miljenko
@@ -513,7 +513,7 @@ Chaim
 Irmtrud
 Alwine
 Wolf
-Sengül
+SengÃ¼l
 Holger
 Durdu
 Alwina
@@ -531,7 +531,7 @@ Philipp
 Ekhard
 Wenke
 Ingke
-Hansjürgen
+HansjÃ¼rgen
 Charisios
 Moses
 Ersoy
@@ -691,7 +691,7 @@ Marco
 Veronica
 Margaritis
 Camil
-Cläre
+ClÃ¤re
 Mireille
 Juraj
 Jury
@@ -868,13 +868,13 @@ Sonnhild
 Andrea
 Arnim
 Dilaver
-Zäzilia
+ZÃ¤zilia
 Athanassios
 Kristian
 Saray
 Danijela
 Loretta
-Gülhan
+GÃ¼lhan
 Luzie
 Luzia
 Sarah
@@ -991,7 +991,7 @@ Joseph
 Imre
 Lydia
 Milka
-Sönke
+SÃ¶nke
 Pascale
 Lotfi
 Kaplan
@@ -1143,7 +1143,7 @@ Lizzy
 Arif
 Arie
 Silja
-Gülten
+GÃ¼lten
 Yildirim
 Natali
 Kornelia
@@ -1161,7 +1161,7 @@ Mamadou
 Gundolf
 Ellis
 Sadri
-Gyöngyi
+GyÃ¶ngyi
 Sakire
 Katharine
 Kreso
@@ -1179,7 +1179,7 @@ Hansi
 Heye
 Rona
 Romy
-Dezsö
+DezsÃ¶
 Solveigh
 Hubertine
 Grace
@@ -1233,7 +1233,7 @@ Imam
 Friede
 Rasid
 Frieda
-Sükriye
+SÃ¼kriye
 Bobby
 Imad
 Reintraut
@@ -1319,7 +1319,7 @@ Hanim
 Ljuba
 Muhlis
 Tabea
-Fränzi
+FrÃ¤nzi
 Adelgunde
 Mariano
 Evagelos
@@ -1421,7 +1421,7 @@ Abdurahman
 Radomir
 Ilsa
 Sighart
-Bärbel
+BÃ¤rbel
 Vlastimir
 Sina
 Metin
@@ -1464,7 +1464,7 @@ Hedi
 Miodrag
 Yvette
 Hede
-Müslüm
+MÃ¼slÃ¼m
 Yannick
 Annelise
 Demir
@@ -1547,7 +1547,7 @@ Katia
 Hieronim
 Kathy
 Hendrikje
-Dörte
+DÃ¶rte
 Store
 Asadollah
 Siegried
@@ -1571,7 +1571,7 @@ Irmela
 Corinna
 Zivka
 Georgios
-Gülsen
+GÃ¼lsen
 Zohreh
 Rosel
 Markus
@@ -1640,7 +1640,7 @@ Krystyna
 Eleonora
 Reiko
 Ilan
-Hüsniye
+HÃ¼sniye
 Annelies
 Winston
 Veli
@@ -1663,7 +1663,7 @@ Mesut
 Elsabe
 Regina
 Pavle
-Akgül
+AkgÃ¼l
 Egidius
 Susi
 Suse
@@ -1673,7 +1673,7 @@ Susa
 Ljubow
 Senija
 Yasmin
-Götz
+GÃ¶tz
 Guenther
 Veit
 Javad
@@ -1718,7 +1718,7 @@ Adem
 Adel
 Hennig
 Markku
-Lütfi
+LÃ¼tfi
 Charli
 Sacha
 Nazmi
@@ -1920,7 +1920,7 @@ Lukas
 Parviz
 Frederick
 Suat
-Kätchen
+KÃ¤tchen
 Frauke
 Sebahattin
 Marilyn
@@ -1978,7 +1978,7 @@ Brita
 Kasim
 Heilwig
 Tonci
-Günter
+GÃ¼nter
 Kinga
 Gerty
 Mode
@@ -2026,7 +2026,7 @@ Sabri
 Adelhaid
 Lucyna
 Benjamin
-Sükran
+SÃ¼kran
 Carolyn
 Wasyl
 Anthoula
@@ -2071,7 +2071,7 @@ Antonietta
 Tacettin
 Rados
 Annamaria
-Jenö
+JenÃ¶
 Moncef
 Rinaldo
 Oktavian
@@ -2528,7 +2528,7 @@ Elias
 Pit
 Berthold
 Haralabos
-Birgül
+BirgÃ¼l
 Sladjana
 Ditmar
 Sonya
@@ -2538,7 +2538,7 @@ Scarlett
 Habiba
 Corneliu
 Cornelis
-Gülseren
+GÃ¼lseren
 Hakki
 Stipan
 Sabriye
@@ -2630,7 +2630,7 @@ Kasimir
 Dinko
 Pasquale
 Alaattin
-Ernö
+ErnÃ¶
 Housein
 Lothar
 Pal
@@ -2660,7 +2660,7 @@ Valentine
 Ahmet
 Valentina
 Sadeta
-Hansjörg
+HansjÃ¶rg
 Silvio
 Ahmed
 Vincenz
@@ -2709,11 +2709,11 @@ Erna
 Sotirios
 Akira
 Birke
-Thaddäus
+ThaddÃ¤us
 Hector
 Agron
 Miloslav
-Rüdiger
+RÃ¼diger
 Cezary
 Benny
 Vlajko
@@ -2855,7 +2855,7 @@ Alicia
 Radoslaw
 Radoslav
 Annette
-Mevlüt
+MevlÃ¼t
 Dragomir
 Kostadin
 Illya
@@ -2867,7 +2867,7 @@ Nikitas
 Sadegh
 Mascha
 Bianca
-Mürsel
+MÃ¼rsel
 Kristiane
 Jolante
 Vidosava
@@ -2919,7 +2919,7 @@ Balthasar
 Hava
 Tiziano
 Andi
-Yücel
+YÃ¼cel
 Anda
 Serafina
 Tiziana
@@ -2970,7 +2970,7 @@ Obeidullah
 Leni
 Kader
 Lene
-Hülya
+HÃ¼lya
 Periklis
 Lena
 Bahram
@@ -2988,7 +2988,7 @@ Rocco
 Resad
 Gritt
 Boy
-Jörgen
+JÃ¶rgen
 Ekaterini
 Consuelo
 Ugur
@@ -3037,7 +3037,7 @@ Jeffery
 Piet
 Rabia
 Slavisa
-Köksal
+KÃ¶ksal
 Dimos
 Hani
 Willi
@@ -3063,7 +3063,7 @@ Aleksandr
 Galip
 Rakesh
 Odo
-Gökhan
+GÃ¶khan
 Piroska
 Elsbeth
 Oda
@@ -3078,7 +3078,7 @@ Mechtildis
 Kingsley
 Nunzio
 Necdet
-Güldane
+GÃ¼ldane
 Wilhelma
 Celalettin
 Nunzia
@@ -3145,7 +3145,7 @@ Darko
 Lech
 Melitta
 Andjelko
-Jürgen
+JÃ¼rgen
 Stavros
 Stojanka
 Heidelore
@@ -3155,7 +3155,7 @@ Ireen
 Ben
 Josephine
 Huguette
-Jürg
+JÃ¼rg
 Antonius
 Cord
 Cora
@@ -3216,7 +3216,7 @@ Mitar
 Joze
 Florence
 Sitki
-Enikö
+EnikÃ¶
 Havva
 Aurel
 Dimitros
@@ -3238,8 +3238,8 @@ Seid
 Wadim
 Cheryl
 Jimmy
-Cäcilie
-Cäcilia
+CÃ¤cilie
+CÃ¤cilia
 Amor
 Virginia
 Stefanie
@@ -3291,7 +3291,7 @@ Trudel
 Antonina
 Sefa
 Djawad
-Eyüp
+EyÃ¼p
 Nikolei
 Heinrich
 Salon
@@ -3321,8 +3321,8 @@ Myriam
 Harriet
 Selcuk
 Abdulaziz
-Günes
-Güner
+GÃ¼nes
+GÃ¼ner
 Trajko
 Ehrenfried
 Sally
@@ -3372,7 +3372,7 @@ Zeki
 Narges
 Clarissa
 Siggi
-Günay
+GÃ¼nay
 Salim
 Robin
 Noureddine
@@ -3414,7 +3414,7 @@ Edel
 Matina
 Tankred
 Andre
-André
+AndrÃ©
 Francesca
 Martin
 Andra
@@ -3474,7 +3474,7 @@ Danica
 Dorle
 Haiko
 Hursit
-Döndü
+DÃ¶ndÃ¼
 John
 Fazil
 Robby
@@ -3514,7 +3514,7 @@ Amy
 Raymonde
 Ferdinand
 Ifeta
-Mükremin
+MÃ¼kremin
 Dorit
 Polina
 Doris
@@ -3536,7 +3536,7 @@ Berend
 Jlija
 Ali
 Alf
-Tülin
+TÃ¼lin
 Friseur
 Ala
 Zlata
@@ -3623,7 +3623,7 @@ Erling
 Charlie
 Ramchand
 Jessica
-Bülent
+BÃ¼lent
 Djavid
 Sebastian
 Amira
@@ -3643,7 +3643,7 @@ Rizo
 Praxis
 Irmentraud
 Jukka
-Tülay
+TÃ¼lay
 Gundel
 Lucian
 Riza
@@ -3713,8 +3713,8 @@ Selvaratnam
 Imeri
 Abdellatif
 Svjetlana
-Käthi
-Käthe
+KÃ¤thi
+KÃ¤the
 Alban
 Kamile
 Bella
@@ -3816,8 +3816,8 @@ Caroline
 Yildiz
 Sunita
 Carolina
-Ergün
-Ergül
+ErgÃ¼n
+ErgÃ¼l
 Milojka
 Nicolaus
 Preben
@@ -3836,7 +3836,7 @@ Gaetano
 Helmi
 Bohuslav
 Sakib
-Göksel
+GÃ¶ksel
 Helma
 Alex
 Jarnail
@@ -3874,7 +3874,7 @@ Gotthilf
 Muhsin
 Drago
 Helke
-Mümin
+MÃ¼min
 Ramin
 Augusto
 Dragi
@@ -4028,7 +4028,7 @@ Madeleine
 Elfrieda
 Youssef
 Pilar
-Gösta
+GÃ¶sta
 Nedo
 Felipe
 Nematollah
@@ -4053,7 +4053,7 @@ Alain
 Vasile
 Jago
 Kersten
-Münevver
+MÃ¼nevver
 Vilja
 Aksoy
 Telse
@@ -4075,7 +4075,7 @@ Wolfried
 Christian
 Magnus
 Olly
-Güllü
+GÃ¼llÃ¼
 Ayten
 Yousef
 Senta
@@ -4104,7 +4104,7 @@ Stamatios
 Ludolf
 Mirco
 Chrissoula
-Björn
+BjÃ¶rn
 Aliriza
 Ludovic
 Jack
@@ -4133,7 +4133,7 @@ Rainer
 Ural
 Dmitrij
 Seyhan
-Dörthe
+DÃ¶rthe
 Carin
 Emmanuel
 Semiha
@@ -4158,7 +4158,7 @@ Olga
 Gianluca
 Lya
 Chantal
-Gürsel
+GÃ¼rsel
 Laurentius
 Milica
 Akos
@@ -4209,7 +4209,7 @@ Frido
 Bekir
 Fridl
 Petre
-Röschen
+RÃ¶schen
 Bekim
 Petra
 Jeanne
@@ -4240,7 +4240,7 @@ Siegward
 Rachel
 Oswin
 Olaf
-Güler
+GÃ¼ler
 Stilla
 Sajma
 Kandiah
@@ -4292,12 +4292,12 @@ Aysun
 Camilla
 Gojko
 Tobias
-Gülay
+GÃ¼lay
 Chris
 Khan
 Boujemaa
 Hildegart
-Gönül
+GÃ¶nÃ¼l
 Handan
 Slava
 Petko
@@ -4406,7 +4406,7 @@ Yan
 Zahit
 Zahir
 Jelena
-Müzeyyen
+MÃ¼zeyyen
 Marinella
 Hamidreza
 Brit
@@ -4496,7 +4496,7 @@ Basri
 Carmelo
 Leoni
 Lam
-Gül
+GÃ¼l
 Mavis
 Leone
 Wanja
@@ -4652,12 +4652,12 @@ Hubertus
 Berenike
 Cornelius
 Bahadir
-Käthchen
+KÃ¤thchen
 Luitpold
 Petr
 Christin
 Kamil
-Kläre
+KlÃ¤re
 Eckehardt
 Paulus
 Jamshid
@@ -4725,7 +4725,7 @@ Henryka
 Konstantinus
 Kamel
 Aloisia
-Sükrü
+SÃ¼krÃ¼
 Christel
 Laurenz
 Design
@@ -4742,9 +4742,9 @@ Nasuf
 Alfons
 Dietbert
 Arkadij
-Gültekin
+GÃ¼ltekin
 Mohamed
-Göran
+GÃ¶ran
 Berislav
 Susanne
 Susanna
@@ -4760,10 +4760,10 @@ Wenzel
 Bulut
 Andreas
 Hasim
-Cäzilie
+CÃ¤zilie
 Spyridon
 Birger
-Cäzilia
+CÃ¤zilia
 Dursun
 Hasic
 Hasib
@@ -4862,7 +4862,7 @@ Hwan
 Selman
 Peer
 Arkadi
-Matthäus
+MatthÃ¤us
 Gordana
 Cumhur
 Ferudun
@@ -4952,7 +4952,7 @@ Cetin
 Sani
 Aytekin
 Avni
-Sören
+SÃ¶ren
 Leokadia
 Melih
 Ezio
@@ -5072,7 +5072,7 @@ Seyed
 Safi
 Perry
 Munira
-Gülderen
+GÃ¼lderen
 Maher
 Mabrouk
 Seydi
@@ -5081,7 +5081,7 @@ Rigobert
 Gerhild
 Yahya
 Roberto
-Gülsüm
+GÃ¼lsÃ¼m
 Balwinder
 Myron
 Roberta
@@ -5097,7 +5097,7 @@ Aslan
 Anneli
 Janka
 Narcis
-Türkan
+TÃ¼rkan
 Selim
 Torsten
 Birsen
@@ -5108,7 +5108,7 @@ Ucar
 Bernhild
 Hediye
 Renke
-Hüseyin
+HÃ¼seyin
 Zeliha
 Avci
 Emel
@@ -5139,7 +5139,7 @@ Theater
 Marcus
 Sophia
 Wolfdietrich
-Günther
+GÃ¼nther
 Francisco
 Hulda
 Ranjit
@@ -5214,7 +5214,7 @@ Renee
 Aida
 Heike
 Francisc
-Süleyman
+SÃ¼leyman
 Peric
 Gunar
 Sigrid
@@ -5320,7 +5320,7 @@ Spomenka
 Czeslaw
 Gholamreza
 Marcia
-Bartholomäus
+BartholomÃ¤us
 Elvi
 Wilhlem
 Yasemin
@@ -5444,7 +5444,7 @@ Geraldine
 Janusch
 Kruno
 Elle
-Güven
+GÃ¼ven
 Hannes
 Laila
 Ella
@@ -5474,7 +5474,7 @@ Lucas
 Naza
 Svenja
 Ameli
-Nurgül
+NurgÃ¼l
 Fridtjof
 Amela
 Gevriye
@@ -5587,7 +5587,7 @@ Katrin
 Reni
 Kamuran
 Rene
-René
+RenÃ©
 Achim
 Vladan
 Rena
@@ -5601,7 +5601,7 @@ Solveig
 Erhan
 Bora
 Remo
-Bünyamin
+BÃ¼nyamin
 Norma
 Mladenko
 Barica

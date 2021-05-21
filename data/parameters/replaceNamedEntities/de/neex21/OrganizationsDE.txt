@@ -31,17 +31,17 @@ Continental
 Daimler
 DaimlerChrysler
 Degussa
-Degussa - Hüls
+Degussa - HÃ¼ls
 Deutsche Babcock
 Deutsche Bank
-Deutsche Börse
+Deutsche BÃ¶rse
 Deutsche Post
 Deutsche Telekom
 Dresdner Bank
 Epcos
 EON
 E.ON
-Feldmühle Nobel
+FeldmÃ¼hle Nobel
 Fresenius Medical Care
 Henkel
 Hoechst
@@ -55,7 +55,7 @@ Mannesmann
 Metallgesellschaft
 Metro
 MLP
-Münchner Rück
+MÃ¼nchner RÃ¼ck
 Nixdorf
 Preussag
 RWE

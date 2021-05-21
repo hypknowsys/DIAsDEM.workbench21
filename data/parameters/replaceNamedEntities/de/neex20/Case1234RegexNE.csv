@@ -24,11 +24,11 @@ String;String
 #
 # paragraphs in articles of associations
 #
-"[\§]{1,2}\s*\d+\s*[\s\d\.,A-Za-zÀ-ÿ]*[(][\sA-Za-zÀ-ÿ,\.\(\)]*[)]","paragraph"
+"[\Â§]{1,2}\s*\d+\s*[\s\d\.,A-Za-zÃ€-Ã¿]*[(][\sA-Za-zÃ€-Ã¿,\.\(\)]*[)]","paragraph"
 #
 # paragraphs in legal codes
 #
-"[\§]{1,2}\s*\d+[\s\d\(\)\/\-\.,A-Za-zÀ-ÿ]*(Um[wW]G|Umwandlungsgesetz|FGG|des\ Gesetzes\ über\ die\ Angelegenheiten\ der\ freiwilligen\ Gerichtsbarkeit|AO|GmbHG|AktG|Aktiengesetz|KWG|LöschG|HGB)";"paragraph"
+"[\Â§]{1,2}\s*\d+[\s\d\(\)\/\-\.,A-Za-zÃ€-Ã¿]*(Um[wW]G|Umwandlungsgesetz|FGG|des\ Gesetzes\ Ã¼ber\ die\ Angelegenheiten\ der\ freiwilligen\ Gerichtsbarkeit|AO|GmbHG|AktG|Aktiengesetz|KWG|LÃ¶schG|HGB)";"paragraph"
 #
 # URLs and e-mail addresses
 #

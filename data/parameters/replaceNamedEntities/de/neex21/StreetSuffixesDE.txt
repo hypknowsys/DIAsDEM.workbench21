@@ -2,11 +2,11 @@
 # with NEEX 2.1 (Actions -> Prepare Data Set -> Replace Named Entities 2.1)
 # only. Capitalized tokens are assumed to be a street name candidate, if they
 # end with or solely consist of a suffix listed in this file. Street name
-# suffixes are not processed case-sensitively. Hence, the suffix 'straﬂe'
-# will also match the street 'MUSTERSTRAﬂE' and 'Straﬂe'. Street name
+# suffixes are not processed case-sensitively. Hence, the suffix 'stra√üe'
+# will also match the street 'MUSTERSTRA√üE' and 'Stra√üe'. Street name
 # suffixes should be ordered by their decreasing frequency for performance
 # reasons.
-straﬂe
+stra√üe
 str.
 platz
 ring
@@ -23,6 +23,6 @@ pfad
 graben
 stieg
 steig
-g‰sschen
+g√§sschen
 gaesschen
 strasze

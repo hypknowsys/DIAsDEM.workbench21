@@ -62,12 +62,12 @@ strong_place_affix	Main
 strong_place_affix	( Main )
 strong_place_affix	/ Main
 strong_place_affix	/ M.
-strong_place_affix	Müritz
-strong_place_affix	, Müritz
+strong_place_affix	MÃ¼ritz
+strong_place_affix	, MÃ¼ritz
 strong_place_affix	Neckar
 strong_place_affix	( Neckar )
-strong_place_affix	Neiße
-strong_place_affix	( Neiße )
+strong_place_affix	NeiÃŸe
+strong_place_affix	( NeiÃŸe )
 strong_place_affix	Oder
 strong_place_affix	( Oder )
 strong_place_affix	Ruhr

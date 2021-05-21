@@ -14,8 +14,8 @@ Gesellschafterin
 Gesellschafter
 Mitgesellschafter
 Mitgesellschafterin
-Aktionär
-Aktionärin
+AktionÃ¤r
+AktionÃ¤rin
 Aktionaer
 Aktionaerin
 Tochtergesellschaft
@@ -33,13 +33,13 @@ auf
 zur
 an
 mit
-für
+fÃ¼r
 durch
 gegen
 sowie
 somit
 , Gesellschafterin
-daß ,
+daÃŸ ,
 dass ,
 ;
 ,
@@ -54,27 +54,27 @@ hat
 haben
 bleibt
 bleiben
-gründenden zu
+grÃ¼ndenden zu
 gruendenden zu
 Firma
 Firmen
 : Firma
 Unternehmen
 eingetragenen
-börsennotierten
-börsennotierte
+bÃ¶rsennotierten
+bÃ¶rsennotierte
 notierten
 notierte
 stehenden
 stehende
 entstandene
 entstandenen
-gegründeten
-gegründete
+gegrÃ¼ndeten
+gegrÃ¼ndete
 gegruendeten
 gegruendete
-übernommene
-übernommenen
+Ã¼bernommene
+Ã¼bernommenen
 uebernommene
 uebernommenen
 ehemalige
@@ -82,10 +82,10 @@ ehemaligen
 vertretene
 vertretenen
 kauft
-übernimmt
+Ã¼bernimmt
 erwirbt
 Vorstand
-Generalbevollmächtigter
+GeneralbevollmÃ¤chtigter
 Generalbevollmaechtigter
 vormals
 gelistet
@@ -94,15 +94,15 @@ gelisteten
 notierend
 notierende
 notierenden
-tätig
-tätige
-tätigen
+tÃ¤tig
+tÃ¤tige
+tÃ¤tigen
 taetig
 taetige
 taetigen
-gehörend
-gehörende
-gehörenden
+gehÃ¶rend
+gehÃ¶rende
+gehÃ¶renden
 gehoerend
 gehoerende
 gehoerenden
@@ -122,8 +122,8 @@ verkauften
 gehalten
 gehaltene
 gehaltenen
-ansässige
-ansässigen
+ansÃ¤ssige
+ansÃ¤ssigen
 ansaessige
 ansaessigen
 etwa wie
@@ -137,18 +137,18 @@ angeschlagenen
 deutsche die
 deutschen der
 deutschen des
-österreichische die
-österreichischen der
-österreichischen des
+Ã¶sterreichische die
+Ã¶sterreichischen der
+Ã¶sterreichischen des
 amerikanische die
 amerikanischen der
 amerikanischen des
 kanadische die
 kanadischen der
 kanadischen des
-französische die
-französischen der
-französischen des
+franzÃ¶sische die
+franzÃ¶sischen der
+franzÃ¶sischen des
 britische die
 britischen der
 britischen des
